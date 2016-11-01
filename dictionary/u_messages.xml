@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Messages" max_length="40" name="u_messages" type="collection">
+        <element label="Addressed To" max_length="32" name="x_66281_donatenow_addressed_to" reference="u_sick_children_database" type="reference"/>
+        <index name="index">
+            <element name="x_66281_donatenow_addressed_to"/>
+        </index>
+    </element>
+</database>

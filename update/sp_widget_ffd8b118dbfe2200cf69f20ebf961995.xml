@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.view {&#13;
+    width: 300px;&#13;
+    height: 200px;&#13;
+    margin: 10px;&#13;
+    float: left;&#13;
+    border: 10px solid #fff;&#13;
+    overflow: hidden;&#13;
+    position: relative;&#13;
+    text-align: center;&#13;
+    box-shadow: 1px 1px 2px #e6e6e6;&#13;
+    cursor: default;&#13;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center&#13;
+}&#13;
+.view .mask, .view .content {&#13;
+    width: 300px;&#13;
+    height: 200px;&#13;
+    position: absolute;&#13;
+    overflow: hidden;&#13;
+    top: 0;&#13;
+    left: 0&#13;
+}&#13;
+.view img {&#13;
+    display: block;&#13;
+    position: relative&#13;
+}&#13;
+.view h2 {&#13;
+    text-transform: uppercase;&#13;
+    color: #fff;&#13;
+    text-align: center;&#13;
+    position: relative;&#13;
+    font-size: 17px;&#13;
+    padding: 10px;&#13;
+    background: rgba(0, 0, 0, 0.8);&#13;
+    margin: 20px 0 0 0&#13;
+}&#13;
+.view p {&#13;
+    font-family: Georgia, serif;&#13;
+    font-style: italic;&#13;
+    font-size: 12px;&#13;
+    position: relative;&#13;
+    color: #fff;&#13;
+    padding: 10px 20px 20px;&#13;
+    text-align: center&#13;
+}&#13;
+.view a.info {&#13;
+    display: inline-block;&#13;
+    text-decoration: none;&#13;
+    padding: 7px 14px;&#13;
+    background: #000;&#13;
+    color: #fff;&#13;
+    text-transform: uppercase;&#13;
+    box-shadow: 0 0 1px #000&#13;
+}&#13;
+.view a.info:hover {&#13;
+    box-shadow: 0 0 5px #000&#13;
+}</css>
+        <data_table>sp_instance_link</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description,glyph,class_name,type,sc_category,url,kb_article,kb_topic,kb_category,sc_cat_item,sp_page,color</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name> Copy of Icon Link_help me learn</name>
+        <option_schema>[{"name":"link_template","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	var gr = $sp.getInstanceRecord();
+	data.href = $sp.getMenuHREF(gr);
+	data.target = options.target || "";
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-27 06:10:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ffd8b118dbfe2200cf69f20ebf961995</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name> Copy of Icon Link_help me learn</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_ffd8b118dbfe2200cf69f20ebf961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:16:06</sys_updated_on>
+        <template><![CDATA[<div class="view">  
+     <img src="https://dev18766.service-now.com/help%20me%20learn.jpg" />  
+     <div class="mask">  
+     <h2>Help me learn</h2>  
+     <p>Would you like to share your knowledge with the underpriviledged?</p>
+       <a ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}"><font color="#ffffff">Click here to find More</font></a>  
+     </div>  
+  <!--// Top Icon -->
+  <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}">
+    <div class="m-b fa fa-{{::options.glyph}} fa-4x {{::options.class_name}} text-{{::options.color}}"></div>
+    <h3>{{::options.title}}</h3>
+    <span class="text-muted">{{::options.short_description}}</span>
+  </a>
+
+  <!--// Circle Icon -->
+  <a ng-if="::(options.link_template == 'Circle Icon')" ng-href="{{::data.href}}" class="circle_icon {{::options.class_name}} text-{{::options.color}}" target="{{::data.target}}">
+    <span class="fa fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-{{::options.glyph}} fa-stack-1x fa-inverse"></i>
+    </span>
+    <h3>{{::options.title}}</h3>
+    <span class="text-muted">{{::options.short_description}}</span>
+  </a>
+
+  <!--// Color Box -->
+  <a ng-if="::(options.link_template == 'Color Box')" ng-href="{{::data.href}}" class="color_box {{::options.class_name}} icon-link-background-{{::options.color}} text-white" target="{{::data.target}}">
+    <div class="fa fa-{{::options.glyph}} fa-3x {{::options.class_name}}"></div>
+    <h3>{{::options.title}}</h3>
+    <span>{{::options.short_description}}</span>
+  </a>
+</div>]]></template>
+    </sp_widget>
+</record_update>

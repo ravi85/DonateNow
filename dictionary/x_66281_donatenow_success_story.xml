@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Success Story" max_length="40" name="x_66281_donatenow_success_story" type="collection">
+        <element label="Donor" max_length="32" name="donor" reference="sys_user" type="reference"/>
+        <element label="Message" max_length="65536" name="message" type="html"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Orphanage" max_length="32" name="orphanage" reference="x_66281_donatenow_home_details" type="reference"/>
+        <index name="index">
+            <element name="donor"/>
+        </index>
+        <index name="index2">
+            <element name="orphanage"/>
+        </index>
+    </element>
+</database>

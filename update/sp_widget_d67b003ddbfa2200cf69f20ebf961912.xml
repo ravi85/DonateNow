@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#backgroundproduct {&#13;
+    position: fixed;&#13;
+    top:0px;&#13;
+    left:0px;&#13;
+    width: 100%;&#13;
+    height: 50%;&#13;
+    z-index:-1;&#13;
+    -webkit-background-size: cover;&#13;
+    -moz-background-size: cover;&#13;
+    -o-background-size: cover;&#13;
+    background-size: cover;&#13;
+    background-position: top;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>donatenow current top image</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:03:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d67b003ddbfa2200cf69f20ebf961912</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>donatenow current top image</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_d67b003ddbfa2200cf69f20ebf961912</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-10-31 15:01:23</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+   <div id="backgroundproduct" style="background-image: url(https://dev18766.service-now.com/homepg.jpg">
+  
+<div>]]></template>
+    </sp_widget>
+</record_update>

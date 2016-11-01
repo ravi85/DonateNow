@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="rice" label="Rice" language="en" table="x_66281_donatenow_new_donation_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>rice</element>
+            <help/>
+            <hint/>
+            <label>Rice</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <plural>Rices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-21 07:55:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8c375b5edbe62200cf69f20ebf9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rice</sys_name>
+            <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+            <sys_update_name>sys_documentation_x_66281_donatenow_new_donation_request_rice_en</sys_update_name>
+            <sys_updated_by>Niloy</sys_updated_by>
+            <sys_updated_on>2016-10-21 07:55:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

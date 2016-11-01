@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="clothing_type" table="x_66281_donatenow_new_donation_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clothing_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Cloth</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 11:05:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb7f9753db2e6200cf69f20ebf961928</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>payel</sys_updated_by>
+            <sys_updated_on>2016-10-28 10:08:16</sys_updated_on>
+            <value>clothes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clothing_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Old Cloth</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sequence>20</sequence>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 11:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b38f1753db2e6200cf69f20ebf9619a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>payel</sys_updated_by>
+            <sys_updated_on>2016-10-28 10:08:23</sys_updated_on>
+            <value>shoes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>clothing_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Combination Of Both</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sequence>30</sequence>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 11:07:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfefd753db2e6200cf69f20ebf961925</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>payel</sys_updated_by>
+            <sys_updated_on>2016-10-28 10:08:34</sys_updated_on>
+            <value>others</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>clothing_type</element>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 11:05:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>068f9f13db2e6200cf69f20ebf961971</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>clothing_type</sys_name>
+            <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+            <sys_update_name>sys_choice_x_66281_donatenow_new_donation_request_clothing_type</sys_update_name>
+            <sys_updated_by>payel</sys_updated_by>
+            <sys_updated_on>2016-10-28 10:08:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="ref_ac_columns_search=true,ref_ac_order_by=name,ref_ac_columns=email,display_image=photo,ref_auto_completer=AJAXTableCompleter,iterativeDelete=true,text_index_translations" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Office Location" max_length="100" name="x_66281_donatenow_office_location" reference="cmn_location" type="reference"/>
+        <element label="Volunteer" max_length="40" name="x_66281_donatenow_volunteer" type="boolean"/>
+    </element>
+</database>

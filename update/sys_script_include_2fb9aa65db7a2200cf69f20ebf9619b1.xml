@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_66281_donatenow.QuickSearch</api_name>
+        <client_callable>false</client_callable>
+        <description>nameLIKE&#13;
+^ORcontact_person_nameLIKE&#13;
+^ORlocation.nameLIKE&#13;
+&#13;
+</description>
+        <name>QuickSearch</name>
+        <script><![CDATA[var QuickSearch = Class.create();
+QuickSearch.prototype = {
+    initialize: function(keywords) {
+		this.keyWords = keywords;
+		this.searchArr = [];
+		this.separateKeywords();
+		this.query = "";
+		this.searchResult = [];
+    },
+	separateKeywords: function(){
+		this.searchArr = this.keyWords.split(" ");
+	},
+	buildQuery: function(keyword){
+		//var or = "^OR";
+		var query = "";
+		var searchWithName = "nameLIKE"+keyword;
+		//var searchWithContact = "^ORcontact_person_nameLIKE"+keyword;
+		var searchWithLocation = "^ORaddress.nameLIKE"+keyword;
+		var searchWithStreet = "^ORaddress.streetLIKE"+keyword;
+		var searchWithCity = "^ORaddress.cityLIKE"+keyword;
+		var searchWithArea = "^ORaddress.areaLIKE"+keyword;
+		var searchWithSpoc = "^ORspoc.nameLIKE"+keyword;
+		
+		
+		this.query = searchWithName + searchWithLocation + searchWithStreet + searchWithCity + searchWithArea + searchWithSpoc ; 
+// 			+ searchWithContact + searchWithLocation;
+	},
+	search: function(){
+		for(var v in this.searchArr){
+			//gs.info(this.searchArr[v]);
+			this.buildQuery(this.searchArr[v]);
+			
+			var gr = new GlideRecord("x_66281_donatenow_home_details");
+			//gs.info(this.query);
+			gr.addEncodedQuery(this.query);
+			gr.query();
+			while(gr.next()){
+				var obj = {};
+				obj.name = gr.name.getDisplayValue();
+				var grAtch = new GlideRecord('sys_attachment');
+				grAtch.addQuery("table_name","ZZ_YYx_66281_donatenow_home_details");
+				grAtch.addQuery("table_sys_id",gr.sys_id);
+				grAtch.query();
+				if(grAtch.next()){
+					obj.image = grAtch.sys_id+".iix";
+				}
+				
+				obj.contact_person = gr.spoc.getDisplayValue();
+				obj.contact_number = gr.contact_number.getDisplayValue();
+				obj.emaild = gr.email.toString();
+				obj.description = gr.description.toString();
+				obj.location = gr.address.name.toString();
+				obj.orp_id = gr.sys_id.toString();
+				obj.spoc_id = gr.spoc.toString();
+				this.searchResult.push(obj);
+			}
+		}
+	return this.searchResult;
+	},
+    type: 'QuickSearch'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 06:56:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2fb9aa65db7a2200cf69f20ebf9619b1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>QuickSearch</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sys_script_include_2fb9aa65db7a2200cf69f20ebf9619b1</sys_update_name>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 08:29:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cheers For A Donation">a9065784db3e2200cf69f20ebf961915</catalog_item>
+        <catalog_variable>IO:aa640c2edb2a2200cf69f20ebf961968</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-26 18:19:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4a069784db3e2200cf69f20ebf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pickup_location</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4a069784db3e2200cf69f20ebf9619a8</sys_update_name>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-26 18:19:19</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Visibility of 'Pickup location' field  based on 'Spoc Pickup' field">71069784db3e2200cf69f20ebf9619a7</ui_policy>
+        <variable>pickup_location</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

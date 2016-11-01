@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="interested_in" table="x_66281_donatenow_volunteer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interested_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fundraising for events</label>
+            <language>en</language>
+            <name>x_66281_donatenow_volunteer</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-24 07:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc52769fdbaa6200cf69f20ebf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-24 07:48:03</sys_updated_on>
+            <value>Fundraising for events</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interested_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pickup Food</label>
+            <language>en</language>
+            <name>x_66281_donatenow_volunteer</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-24 07:48:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2062769fdbaa6200cf69f20ebf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-24 07:48:19</sys_updated_on>
+            <value>Pickup Food</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interested_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teaching the underpriviledged</label>
+            <language>en</language>
+            <name>x_66281_donatenow_volunteer</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-24 07:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0472b69fdbaa6200cf69f20ebf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-24 07:48:52</sys_updated_on>
+            <value>Teaching the underpriviledged</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>interested_in</element>
+            <name>x_66281_donatenow_volunteer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-24 07:48:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1f52f29fdbaa6200cf69f20ebf9619bf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>interested_in</sys_name>
+            <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+            <sys_update_name>sys_choice_x_66281_donatenow_volunteer_interested_in</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-24 07:48:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>true</default>
+        <homepage display_value="donatenow_current_home">42345831db3e2200cf69f20ebf9619da</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:39:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e78394fddbfa2200cf69f20ebf96190c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DonateNow Current</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_portal_e78394fddbfa2200cf69f20ebf96190c</sys_update_name>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 14:44:46</sys_updated_on>
+        <theme display_value="DonateNow Current Theme">1aa35831db3e2200cf69f20ebf961933</theme>
+        <title>DonateNow Current</title>
+        <url_suffix>donatenow</url_suffix>
+    </sp_portal>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1929</size_bytes>
+        <size_compressed>1952</size_compressed>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:18</sys_created_on>
+        <sys_id>67f45071db3e2200cf69f20ebf961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 14:45:18</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>e78394fddbfa2200cf69f20ebf96190c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="67f45071db3e2200cf69f20ebf961975">67f45071db3e2200cf69f20ebf961975</sys_attachment>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:18</sys_created_on>
+        <sys_id>a7f45071db3e2200cf69f20ebf961975</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2592</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="67f45071db3e2200cf69f20ebf961975">67f45071db3e2200cf69f20ebf961975</sys_attachment>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:18</sys_created_on>
+        <sys_id>2bf45071db3e2200cf69f20ebf961975</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1929</size_bytes>
+        <size_compressed>1952</size_compressed>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:01</sys_created_on>
+        <sys_id>2fe45831db3e2200cf69f20ebf9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 14:45:01</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>e78394fddbfa2200cf69f20ebf96190c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="2fe45831db3e2200cf69f20ebf9619ba">2fe45831db3e2200cf69f20ebf9619ba</sys_attachment>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:01</sys_created_on>
+        <sys_id>6fe45831db3e2200cf69f20ebf9619ba</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AYkHdviJUE5HDQoaCgAAAA1JSERSAAABPQAAAJ8IAwAAALzm/v4AAADYUExURf///+QyKK8JF3Bxc2tsbv77+eU8MuQtI/Ouq+lhWuIeDWdoaulWTGVmaICBg2JjZaKjpO/w760AAHoGEdfX2OPj5OhKP5KTlLq6u+lRR8MbHc/Q0OpXTfS4te+Ig64AEYWGh4QLEnZ3eeIVANsvJOvMzrO0tf3t7Orq6rk9QpqbnPrd2+MpHMnJyqqqq5aWmHUAAJ4IFdWQlFhZXL+IiaMJFu+Dfo0HEug8MWwAAJsAAOlMQe+NiHMDDok1OnsAAL1UWcMREs9lZrxHTtSYnMAAAPbCwPWuq8aJ/lcAAAZsSURBVHic7duLcptGGIZhBIvlGnMSwmCRuIioClEtOalzbOOkadr0/u+o+y8ClqMO6ZR69L3TiSWBM8ozuwtIVFEQQgghhBBCCCGEEEIIIYTQv9Dzod/AY+7m6ueh38Lj7ebqEnzH9vHq8vL6N/AdFce75v9dg++I+LS9Ho2vnoDviN4S3kjwYe07tBuuNhplfDh0HNjHbOSJOB8m7yHJeMSHte+AaM0bl3pY+w7ppjLysPYd1Mc6XjZ5cdq8T214WPv2jE/byyYen7y4aNvd2/w8r8mHtW9XjQOGxHd2drb4aeg3+H+uB4/8Rm8m4Oss+2Cgm2+u/gi+rmonyfUW81cq+Lrqn7Z85L1TVfB1tBPPU1XwdbQT7+GVCr6Odqx5HG+uquBrb8fIW8y9B1UFX3s3XVcYxZr38E4FX3u7DxjeXFXB19rO8zzP896o4Gtt5wGD471T64FPtMe09bwGHvhE++AVp3rgq/a2/1OV2/mD1zhkgG/b+ahvzbu9fv2hY95mfDN96H/AoJ1f9Eza27PnyuuXntc6b6nZe+j14SnK6w8d85bjjc+g14vH+X7twhuNoNeFd5Xfs/zLpAsPejvxOvhmY+h16d2+l++Wb+Gbid2g17fm5TX4Mjzo7Zq2WTW+2Rh6SodeE6/GN8v3hN7OaZsl8RV40NsTT+Ir8aC3L17BJ+FBb481L0/wyXjQ2x9P8FXwoFfRGF/3/y+lf/41gl5ZTW/xtX/3bxfQk6rqLV5NvvZ5PH02gp5URW8xV9U+vqeNAzT0ijVvIT5EnvzeJdLEg1458rZf2k461r7GtIVeqbco7vOZvGgzacODXolXfPnTtva14kGvwJO+/Gnytax50Mv1FrUvbet87SMPehc5XvU+n8kLea8uPOht8epf2sqjrxMPehneQ/3+PImvY82DHukRXsv9eQVfDx70BF7rfT7ZeV/3tIXe3xde5/15gq8X79T1zj973ffn8WvevmlLnbae++llyy3dRV/68Z49Hfr9D5z+6eVDyyEja9ZrBzzi+wy849NftN9hBry96uAD3n618gFv31r4gLd/DT7gHVKND3iHVeED3qFJfMA7vIIPeMe05QPecQk+4B0b5/sy7g14Pel//NDbk29Dv0OEEEIIIbRHEc8f+k082hLbtFdDv4lHm6VpzBn6TTzaoPc9Qe97atdzfd93669tX9DTtLlpewuQ7p7WvUBteqFlmKZtxGvxLI2DYKP4sWHTsyhgpmkkK3GcXgd3wVoJE8PQHJd+j2UPTqamnm4ZWpYZk4RvMnbnG0xjfNudycQmZi75ptBgZuiY9IIRK4F4wLQT4mvqWeRj2kTBAv7c55iBRc8UJWAEZxMv8YX8qcWYQb/B4uLBIP+QQWroLQ0CmPpRzCnsMNPjA89ghhJyUraa+msSNn2hp2mbcCV+stV6ST/t0xl8dT09IQbxkPi0TE8zHN9NFSLaiL34Nv5rpGek/PmGxiTN5Sn3Naf//T9joOp6Uxpp2eDxbTHAxNjb5C8Y5W6J0IvzLdmQYyett8xBeDQMQ6Fn0gBT1kQWrSlyYy7/UyyNkutp6zksn7h86opBJ2auOI0jWc0QiUcp9Fr08uex2FbVY0bRPfTqepscZLttKemFdO4yjYp06NX0xNqWXW7p/KERSXoRP6Ba8i9Dr6aX0klIdolGE9V0Jb2Ujqzi+KH4yzAMoUcXEVZQNBWXE3zE8VFoZmd+pR4thFpCV7h+wq/RAuhZ4iohz4yUVFyGJXEiTpLdip5viivaVUwvMR96liZHgy6yi6cmjUFJj49HcSUrrsei7Dr3pPUSW+6eVrxpYouBaFviYyj/3rbN/GO7NLaNctuSb4rzfe7FDvSXnI6eW207Q0Nn5YS+tEv5C6m0TS82NR8ghBBCqKfiODu9u7tzivtbXCcO1npln01+ZM32cp3T+iqyNSfaPgid1I+0/MQtDt10lT/JHljp9qml0Z8Bw3mKpEdfUkTbj0n1pLKP0IsLPcehL3Zj6NX01vmHL4GTlhOzppfoydRlrgW9Um/t+P5ayxc+PYyTTe7X0EuteKpAT9bjE3Ipg7iOU9mnWPcSV1nyGQ69+swtIqk0zjcRo6vl2xLBpkOvSy9lG3+6vSeIZ238KCmeZbet6An0lOIWZr/yKZO+XjnSC+GqPBVUQl3+gRBCCCGEEEIIIYTQqfYPiYqjMO1GFlIAAAAASUVORK5CYIJVVIdKiQcAAA==</data>
+        <length>2592</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="2fe45831db3e2200cf69f20ebf9619ba">2fe45831db3e2200cf69f20ebf9619ba</sys_attachment>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:45:01</sys_created_on>
+        <sys_id>efe45831db3e2200cf69f20ebf9619ba</sys_id>
+    </sys_attachment_doc>
+</record_update>

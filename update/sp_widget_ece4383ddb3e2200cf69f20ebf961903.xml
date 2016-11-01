@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>write-letter</id>
+        <internal>false</internal>
+        <link/>
+        <name>WriteLetterInfo</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Jothi</sys_created_by>
+        <sys_created_on>2016-10-31 17:07:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ece4383ddb3e2200cf69f20ebf961903</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>WriteLetterInfo</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_ece4383ddb3e2200cf69f20ebf961903</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-10-31 18:35:40</sys_updated_on>
+        <template><![CDATA[<div id="letterInfo" style="color:#804d00">
+<!-- your widget template -->
+  <h2 style="color:#990000"> Welcome!! </h2> <br>
+  <h4 style="color:#003300">We help you to Post a Smile on a Sick Child's face by sending message, greeting cards </h4>
+  <h2 style="color:blue"> 3 Steps to Brighten a Sick Child's day</h2>
+  <p>
+    <ol>
+      <li> Select a Child. Click on Write to this Kid button. 
+      <li> Send a Cheerful note to this Kid. 
+      <li> Sit back and know that a child's day will be brightened because of YOU.
+  </ol>
+  <h3 style="color:red"> Please Note</h3>
+  <h6 style="color:#b30047">The Address is a forwarding address. Please do not expect a reply.</h6>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($window) {
+	/* widget controller */
+	var c = this;
+	//test - setting data onload
+	//c.data.keywords = "from client"
+	c.callServer = function(){
+		//console.log("keywords typed : "+c.data.keywords);
+		var words = c.data.keywords;
+		if(words==""){
+			c.res = "";
+			//c.test = "";
+		}
+		else {
+			c.server.get({keywords:words}).then(function(r){
+				c.res = r.data.items.slice(0);
+				c.msg = r.data.msg;
+				
+			});
+		}
+		
+	}
+	
+	c.popUp = function(orp_id,spoc_id){
+  console.log("orp_id "+orp_id);
+  var url = "com.glideapp.servicecatalog_cat_item_view.do?v=1&sysparm_id=a9065784db3e2200cf69f20ebf961915";
+  url += "&sysparm_orp_id="+orp_id;
+	url += "&sysparm_spoc_id="+spoc_id;
+  var title = "Sample Record Producer";
+  var w = 500;
+  var h = 500;
+  popupCenter(url, title, w, h);
+ }
+ 
+ function popupCenter(url, title, w, h) {
+  var left = (screen.width/2)-(w/2);
+  var top = (screen.height/2)-(h/2);
+  return $window.open(url, title, 'resizable=no, width='+w+', height='+h+', top='+top+', left='+left);
+ }
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#custom-search-input{&#13;
+    padding: 3px;&#13;
+    border: solid 1px #E4E4E4;&#13;
+    border-radius: 6px;&#13;
+    background-color: #fff;&#13;
+}&#13;
+&#13;
+#custom-search-input input{&#13;
+    border: 0;&#13;
+    box-shadow: none;&#13;
+}&#13;
+&#13;
+#custom-search-input button{&#13;
+    margin: 2px 0 0 0;&#13;
+    background: none;&#13;
+    box-shadow: none;&#13;
+    border: 0;&#13;
+    color: #666666;&#13;
+    padding: 0 8px 0 10px;&#13;
+    border-left: solid 1px #ccc;&#13;
+}&#13;
+&#13;
+#custom-search-input button:hover{&#13;
+    border: 0;&#13;
+    box-shadow: none;&#13;
+    border-left: solid 1px #ccc;&#13;
+}&#13;
+&#13;
+#custom-search-input .glyphicon-search{&#13;
+    font-size: 23px;&#13;
+}&#13;
+&#13;
+&#13;
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";&#13;
+&#13;
+.container { margin-top: 20px; }&#13;
+.mb20 { margin-bottom: 20px; } &#13;
+&#13;
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }&#13;
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }&#13;
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }&#13;
+&#13;
+.search-result .thumbnail { border-radius: 0 !important; }&#13;
+.search-result:first-child { margin-top: 0 !important; }&#13;
+.search-result { margin-top: 20px; }&#13;
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }&#13;
+.search-result ul { padding-left: 0 !important; list-style: none;  }&#13;
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }&#13;
+.search-result ul li i { padding-right: 5px; }&#13;
+.search-result .col-md-7 { position: relative; }&#13;
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }&#13;
+.search-result h3 &gt; a, .search-result i { color: #248dc1 !important; }&#13;
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; } &#13;
+.search-result span.plus { position: absolute; right: 0; top: 126px; }&#13;
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }&#13;
+.search-result span.plus a:hover { background-color: #414141; }&#13;
+.search-result span.plus a i { color: #fff !important; }&#13;
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>quick-search</id>
+        <internal>false</internal>
+        <link/>
+        <name>Quick Search</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table =
+	$sp.getValue('table'); */
+	
+	//test sending of hard coded data
+	/*
+	if(input){
+		data.results = "server says hi! "
+		+" and you said "
+		+input.keywords;
+	}
+ 	*/
+	data.items = "";
+	if(input){
+		data.items = "";
+		//gs.info(input.keywords);
+		var result = new
+		x_66281_donatenow.QuickSearch(input.keywords);
+		data.items = result.search();
+		data.msg = "Here are some suggestions";
+		//gs.info(data.items[0]);
+	}
+	else{
+		data.items = "";
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 06:54:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5c292e65db7a2200cf69f20ebf961911</sys_id>
+        <sys_mod_count>56</sys_mod_count>
+        <sys_name>Quick Search</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_5c292e65db7a2200cf69f20ebf961911</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-11-01 12:02:51</sys_updated_on>
+        <template><![CDATA[<!--  Search Result--> 
+
+
+<!-- End Search Result -->
+<style>
+  h1 {color:black;}
+h2 {color:black;}
+  </style>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h2 style="font-family:ravie;font-size: 2em">Donate Near You </h2>
+         			<div id="custom-search-input">
+				<div class="input-group col-md-12">
+					<input type="text" class="form-control input-lg" placeholder="Type..." 
+                            ng-model="c.data.keywords" 
+							ng-change="c.callServer()"
+							ng-model-options="{debounce: 450}" 
+                           />
+					<span class="input-group-btn">
+						<button class="btn btn-info btn-lg" type="button">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<hgroup class="mb20">
+		<h1 style="font-family:cursive;font-size: 1.2em">Search Results</h1>
+		<h2 class="lead" style="font-family:cursive;font-size: 1.2em">
+			<strong class="text-danger">{{c.res.length}}</strong> results were found for the search for 
+          <strong class="text-danger">{{c.data.keywords}}</strong>
+			
+		</h2>
+	</hgroup>
+		
+	<div ng-show="c.res.length>0">
+	<section class="col-xs-12 col-sm-6 col-md-12" ng-repeat="item in c.res">
+		<article class="search-result row" >
+			<div class="col-xs-12 col-sm-12 col-md-3">
+				<a href="javascript:void(0)" title="Lorem ipsum" class="thumbnail">
+					<img src="{{::item.image}}" alt="Lorem ipsum" />
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-2">
+				<ul class="meta-search">
+					<li>
+						<i class="glyphicon glyphicon-user"></i>
+						<span>{{item.contact_person}}</span>
+					</li>
+					<li>
+						<i class="glyphicon glyphicon-phone"></i>
+						<span>{{item.contact_number}}</span>
+					</li>
+					<li>
+						<i class="glyphicon glyphicon-envelope"></i>
+						<span>{{item.emaild}}</span>
+					</li>
+          <li>
+						<i class="glyphicon glyphicon-home"></i>
+						<span>{{item.location}}</span>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-9 col-sm-9 col-md-4 excerpet">
+				<h3 style="color:black;font-family:Times New Roman, Georgia, Serif;font-size: 1.5em">
+					<a href="javascript:void(0)" title="">{{item.name}}</a>
+				</h3>
+				<p>{{item.description}}</p>
+				<a href="javascript:void(0)">
+      <span class="glyphicon glyphicon-heart" style="color:red" ng-click="c.popUp(item.orp_id,item.spoc_id)">
+       Donate
+      </span>
+      </a>
+			</div>
+			<span class="clearfix borda"></span>
+		</article>
+	</section>
+	</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

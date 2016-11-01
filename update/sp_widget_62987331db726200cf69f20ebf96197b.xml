@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	c.init = function(){
+		//console.log("print")
+		c.server.update();
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Donators of next 7 days</description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>donatenow-donator</id>
+        <internal>false</internal>
+        <link/>
+        <name>DonateNow Would Be Donator</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	var start = new GlideDateTime().toString().split(" ")[0];
+	var tmp = new GlideDateTime();
+	tmp.addDaysLocalTime(7);
+	var end = tmp.getLocalDate();
+
+	var query = "date>"+start+"^date<"+end;
+	var gr = new GlideAggregate("x_66281_donatenow_new_donation_request");
+	gr.addEncodedQuery(query);
+	gr.groupBy("name");
+	gr.query();
+	//gs.info(gr.getRowCount());
+	data.arr = [];
+	while(gr.next()){
+		var obj = {};
+		var img = new GlideRecord("live_profile");
+		//gs.info("user="+gr.name.sys_id.toString());
+		img.addEncodedQuery("table=sys_user^document="+gr.name.toString());
+		img.orderByDesc("sys_updated_on");
+		img.setLimit(1);
+		img.query();
+		//gs.info(img.getRowCount());
+		if(img.next()){
+			var atch = new GlideRecord("sys_attachment");
+			atch.addEncodedQuery("table_name=ZZ_YYlive_profile");
+			atch.addEncodedQuery("table_sys_id="+img.sys_id.toString());
+			atch.query();
+			if(atch.next()){
+				obj.image = atch.sys_id.toString()+".iix";
+				obj.name = gr.name.name.toString();
+				//gs.info(obj.image);
+			}
+
+		}
+		data.arr.push(obj);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Jothi</sys_created_by>
+        <sys_created_on>2016-11-01 07:20:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>62987331db726200cf69f20ebf96197b</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>DonateNow Would Be Donator</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_62987331db726200cf69f20ebf96197b</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-11-01 09:59:25</sys_updated_on>
+        <template><![CDATA[<div>
+  <h2 style="font-family:ravie;font-size: 2em">Donator Like You For Next Week</h2>
+<div class="container" >
+	<div class="row" ng-repeat="item in c.data.arr">
+		<div class="col-sm-2 col-md-2">
+			<img 
+           src= "{{::item.image}}"
+			alt="" class="img-rounded img-responsive" />
+		</div>
+		<div class="col-sm-4 col-md-6">
+			<blockquote>
+				<p>{{::item.name}}</p> 
+        <small>
+          <cite title="Source Title">
+            Gotham, United Kingdom  
+            <i class="glyphicon 
+                      glyphicon-map-marker">
+            </i>
+          </cite>
+        </small>
+			</blockquote>
+			<p> <i class="glyphicon glyphicon-envelope"></i> masterwayne@batman.com
+				<br
+				/> 
+        <i class="glyphicon glyphicon-globe">
+        </i> www.bootsnipp.com
+				<br /> <i class="glyphicon 
+          glyphicon-gift">
+        </i> January 30, 1974</p>
+			</div>
+
+		</div>
+	</div>
+  </div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gender" table="x_66281_donatenow_new_donation_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 10:58:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8afddb13db2e6200cf69f20ebf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Niloy</sys_updated_by>
+            <sys_updated_on>2016-10-24 10:58:52</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sequence>20</sequence>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 10:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c1e9b13db2e6200cf69f20ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Niloy</sys_updated_by>
+            <sys_updated_on>2016-10-24 10:59:14</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <name>x_66281_donatenow_new_donation_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Niloy</sys_created_by>
+            <sys_created_on>2016-10-24 10:58:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9a0e9713db2e6200cf69f20ebf961930</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>gender</sys_name>
+            <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+            <sys_update_name>sys_choice_x_66281_donatenow_new_donation_request_gender</sys_update_name>
+            <sys_updated_by>Niloy</sys_updated_by>
+            <sys_updated_on>2016-10-24 10:59:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

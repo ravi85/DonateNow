@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true,text_index_translations" audit="true" defaultsort="-1" extends="task" label="Problem" max_length="40" name="problem" sizeclass="17" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="identified root cause" max_length="40" name="x_66281_donatenow_identified_root_cause" type="string"/>
+    </element>
+</database>

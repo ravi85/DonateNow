@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Cloth Donation Request ">9bd9d79fdbea6200cf69f20ebf961912</catalog_item>
+        <catalog_variable>IO:5f5334f7dba22200cf69f20ebf9619d3</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-25 12:20:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>de3a30bbdba22200cf69f20ebf9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orphanage_address</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_de3a30bbdba22200cf69f20ebf9619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-25 12:20:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Visibility of 'Ophanage details' field based on 'self delivery' field">b6e9f03bdba22200cf69f20ebf961927</ui_policy>
+        <variable>Orphanage_address</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

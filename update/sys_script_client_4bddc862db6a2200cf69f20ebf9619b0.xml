@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>populate area and city based on address</description>
+        <field>address</field>
+        <global>true</global>
+        <messages/>
+        <name>populate area and city</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	var add = g_form.getReference('address',popCallerInfo);
+	
+	function popCallerInfo(add){
+		
+		   	g_form.setValue('area',add.x_66281_donatenow_area);
+			g_form.setValue('city',add.city);
+			
+			//Type appropriate comment here, and begin script below
+		} 
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-21 11:55:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bddc862db6a2200cf69f20ebf9619b0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>populate area and city</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sys_script_client_4bddc862db6a2200cf69f20ebf9619b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-21 12:48:45</sys_updated_on>
+        <table>x_66281_donatenow_home_details</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

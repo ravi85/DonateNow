@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($interval,$timeout) {
+	/* widget controller */
+	var c = this;
+	c.successData = [];
+	c.max = 0;
+	$timeout(function(){
+		c.server.get({action: 'getData'}).then(function(response) {
+			//console.log(response.data.arr[0].donor);
+			c.successData = response.data.arr;
+			c.max = response.data.max;
+		});
+	});
+	$interval(function(){
+		c.x = Math.floor((Math.random() * c.max)+1);
+	},3500);
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#section1 {&#13;
+  border: 12px solid DarkGray;&#13;
+  margin-left: 20px;&#13;
+  margin-top: 40px;&#13;
+  padding-top:10px;&#13;
+  padding-right:20px;&#13;
+  height:500px;&#13;
+  color: #fff; &#13;
+&#13;
+}&#13;
+  </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>donatenow-success</id>
+        <internal>false</internal>
+        <link/>
+        <name>DonateNow Success</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	var gr = new GlideRecord("x_66281_donatenow_success_story");
+	gr.query();
+	data.arr = [];
+	var i = 1;
+	data.max = gr.getRowCount();
+	while(gr.next()){
+		var obj = {};
+		obj.index = i;
+		i++;
+		obj.donor = gr.donor.name.toString();
+		obj.orphanage = gr.orphanage.name.toString();
+		obj.message = gr.message.getDisplayValue();
+		//gs.info(obj.donor);
+		
+		var atch = new GlideRecord("sys_attachment");
+		atch.addQuery("table_name","x_66281_donatenow_success_story");
+		atch.addQuery("table_sys_id",gr.sys_id);
+		atch.query();
+		if(atch.next()){
+			obj.image = atch.sys_id.toString()+".iix";
+		}
+		data.arr.push(obj);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 15:38:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>742164b5db3e2200cf69f20ebf9619a6</sys_id>
+        <sys_mod_count>116</sys_mod_count>
+        <sys_name>DonateNow Success</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_742164b5db3e2200cf69f20ebf9619a6</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-11-01 12:48:35</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template 
+  background-color: #1E88E5;
+-->
+</div>
+
+<div id="section1" class="container-fluid" ng-repeat="a in c.successData" ng-show="a.index==c.x">
+   <h1 style="color:purple;font-family:ravie, Georgia,  sans-Serif;font-size: 1.7em">Cheers To Success!!</h1> 
+  <h2 style="font-size: 1.5em">{{a.donor}}</h2>
+  <h3>{{a.orphanage}}</h3>
+    <p ng-bind-html="a.message"></p>
+  <p> 
+  <div ng-show="a.image">
+      <a href = "#" class = "thumbnail">
+         <img src = "{{a.image}}" 
+              alt = "Generic placeholder thumbnail"/>
+      </a>
+   </div>
+  </p>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

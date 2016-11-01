@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Volunteer Information" max_length="40" name="x_66281_donatenow_volunteer" type="collection">
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element label="Area" max_length="32" name="area" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Interested in" max_length="40" name="interested_in" type="choice">
+            <choice>
+                <element label="Fundraising for events" value="Fundraising for events"/>
+                <element label="Pickup Food" value="Pickup Food"/>
+                <element label="Teaching the underpriviledged" value="Teaching the underpriviledged"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reg Status" max_length="40" name="reg_status" type="string">
+            <choice>
+                <element label="Approved" value="Approved"/>
+                <element label="New" value="New"/>
+            </choice>
+        </element>
+    </element>
+</database>

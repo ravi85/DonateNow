@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-21 07:04:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>caabc75adbe62200cf69f20ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_66281_donatenow_new_donation_request.x_66281_donatenow_new_donation_request_user</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_security_acl display_value="x_66281_donatenow_new_donation_request">8eabc75adbe62200cf69f20ebf9619fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_caabc75adbe62200cf69f20ebf9619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-21 07:04:38</sys_updated_on>
+        <sys_user_role display_value="x_66281_donatenow_new_donation_request_user" name="x_66281_donatenow_new_donation_request_user">42abc31adbe62200cf69f20ebf9619ae</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

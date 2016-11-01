@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>600</order>
+        <question display_value="State">e12e3f5adb2a2200cf69f20ebf961947</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-21 11:08:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3863402edb2a2200cf69f20ebf96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed Skipped</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>question_choice_3863402edb2a2200cf69f20ebf96192a</sys_update_name>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-21 11:08:20</sys_updated_on>
+        <text>Closed Skipped</text>
+        <value>7</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3863402edb2a2200cf69f20ebf96192a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>3863402edb2a2200cf69f20ebf96192a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-21 11:08:20</sys_created_on>
+        <sys_id>7363442edb2a2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-21 11:08:20</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>3863402edb2a2200cf69f20ebf96192a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-21 11:08:20</sys_created_on>
+        <sys_id>ff63442edb2a2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-21 11:08:20</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

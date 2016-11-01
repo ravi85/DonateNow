@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="New Donation request" max_length="40" name="x_66281_donatenow_new_donation_request" sizeclass="83" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Age Group" max_length="40" name="age" type="string"/>
+        <element label="Books" max_length="40" name="books" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Book/Stationary Quantity" max_length="40" name="book_stationary_quantity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Book Type" max_length="40" name="book_type" type="string">
+            <choice>
+                <element label="New Books" sequence="10" value="newbook"/>
+                <element label="Old Books" sequence="20" value="oldbooks"/>
+                <element label="Combination Of both" sequence="30" value="combinationofboth"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Donation" max_length="40" name="category" type="glide_list">
+            <choice>
+                <element label="Food" sequence="10" value="Food"/>
+                <element label="Clothing" sequence="20" value="Clothing"/>
+                <element label="Help me learn" sequence="30" value="Help me learn"/>
+            </choice>
+        </element>
+        <element label="Clothes" max_length="40" name="clothes" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Clothing Type" max_length="40" name="clothing_type" type="string">
+            <choice>
+                <element label="New Cloth" sequence="10" value="clothes"/>
+                <element label="Old Cloth" sequence="20" value="shoes"/>
+                <element label="Combination Of Both" sequence="30" value="others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cloth Quantity" max_length="40" name="cloth_quantity" type="string"/>
+        <element label="Dal" max_length="40" name="dal" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Dal Quantity" max_length="40" name="dal_quantity" type="string"/>
+        <element label="Donation Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description of books" max_length="40" name="description_of_books" type="string"/>
+        <element label="Donater location" max_length="32" name="donater_location" reference="cmn_location" type="reference"/>
+        <element label="Food" max_length="40" name="food" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Food Details" max_length="1000" name="food_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Food Type" max_length="40" name="food_type" type="string">
+            <choice>
+                <element label="Cooked Food" value="cookedfood"/>
+                <element label="Grocery Item" value="groceryitem"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element label="Male" sequence="10" value="male"/>
+                <element label="Female" sequence="20" value="female"/>
+            </choice>
+        </element>
+        <element label="Home Address" max_length="40" name="home_address" type="boolean"/>
+        <element label="Master donation" max_length="32" name="master_donation" reference="x_66281_donatenow_donation_need" type="reference"/>
+        <element label="Donor Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="New books" max_length="40" name="new_books" type="boolean"/>
+        <element label="Number of Books" max_length="40" name="number_of_books" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Stationaries" max_length="40" name="number_of_stationaries" type="string"/>
+        <element label="Office address" max_length="40" name="office" type="boolean"/>
+        <element label="Orphanage/Oldage Home" max_length="32" name="orphanage_oldage_home" reference="x_66281_donatenow_home_details" type="reference"/>
+        <element label="Others" max_length="40" name="others" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Spoc Pickup" max_length="40" name="pickup_venue" type="string">
+            <choice>
+                <element label="Home" value="Home"/>
+                <element label="Office" value="office"/>
+            </choice>
+        </element>
+        <element label="Food Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Rice" max_length="40" name="rice" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Rice Quantity" max_length="40" name="rice_quantity" type="string"/>
+        <element label="Self delivery" max_length="40" name="self_delivery" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify" max_length="100" name="specify" type="string"/>
+        <element label="Spoc" max_length="32" name="spoc" reference="sys_user" type="reference"/>
+        <element label="Stationaries" max_length="40" name="stationaries" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Type" max_length="40" name="sub_category" type="string">
+            <choice>
+                <element label="Cooked Food" sequence="10" value="Cooked Food"/>
+                <element label="Grocery items" sequence="20" value="Grocery items"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub-State" max_length="40" name="sub_state" type="string">
+            <choice>
+                <element label="Not Assigned" sequence="10" value="Not Assigned"/>
+                <element label="Unable to Deliver" sequence="20" value="Unable to Deliver"/>
+            </choice>
+        </element>
+        <element label="Used books" max_length="40" name="used_books" type="boolean"/>
+        <element label="Vegetables/Fruits" max_length="40" name="vegetables_fruits" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Vegetable/Fruits Quantity" max_length="40" name="vegetable_fruits_quantity" type="string"/>
+    </element>
+</database>

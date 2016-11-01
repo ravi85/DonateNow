@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.dynamicTile .col-sm-2.col-xs-4 {
+			padding: 5px;
+		}
+
+		.bigicon {
+			font-size: 67px;
+			color: white;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		.icontext {
+			color: white;
+			font-size: 27px;
+		}
+
+		.bigicondark {
+			font-size: 67px;
+			color: black;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		.icontextdark {
+			color: black;
+			font-size: 27px;
+		}
+
+		.dynamicTile .col-sm-4.col-xs-8 {
+			padding: 5px;
+		}
+
+		#tile1 {
+			background: #660066;
+		}
+
+		#tile2 {
+			background: red;
+		}
+
+		#tile3 {
+			background: green;
+		}
+
+		#tile4 {
+			background: #ff9900;
+		}
+
+		#tile5 {
+			background: #cc3399;
+		}
+
+		#tile6 {
+			background: #0099cc;
+		}
+
+		#tile7 {
+			background: white;
+		}
+
+		#tile8 {
+			background: #03133C;
+		}
+
+		#tile9 {
+			background: #cc3300;
+		}
+
+		#tile10 {
+			background: #9900ff;
+		}
+
+		.tilecaption {
+			position: relative;
+			top: 90%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			margin: 0!important;
+			text-align: center;
+			color: white;
+			font-family: Segoe UI;
+			font-weight: lighter;
+		}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>donatenow current metro</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 14:23:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6eef84fddbfa2200cf69f20ebf961901</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>donatenow current metro</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sp_widget_6eef84fddbfa2200cf69f20ebf961901</sys_update_name>
+        <sys_updated_by>Jothi</sys_updated_by>
+        <sys_updated_on>2016-11-01 09:50:40</sys_updated_on>
+        <template><![CDATA[<div id="mytile">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<!-- Metro Tiles - START -->
+		<div class="container dynamicTile">
+			<div class="row">
+				<div class="col-sm-4 col-xs-8">
+					<div id="tile7" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active" ng-init="myTile7 = 'https://dev18766.service-now.com/dn?id=dn_home_information'">
+									<img src="https://dev18766.service-now.com/im1.jpg" class="img-responsive" />
+									<a ng-href="{{myTile7}}">Click here for more</a>
+								</div>
+								<div class="item" ng-init="myTile7 = 'https://dev18766.service-now.com/dn?id=dn_home_information'">
+									<img src="https://dev18766.service-now.com/im2.jpg" class="img-responsive" />
+									<a ng-href="{{myTile7}}">Click here for more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile8" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" ng-init="quickSearchInit = '?id=quicksearch'">
+								<div class="item active text-center">
+									<div>
+										<span class="fa fa-search bigicon"></span>
+									</div>
+									<div class="icontext">
+										Quick Search
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{quickSearchInit}}">Click here for more</a>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-search-minus bigicon"></span>
+									</div>
+									<div class="icontext">
+										Quick Search
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{quickSearchInit}}">Click here for more</a>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-search-plus bigicon"></span>
+									</div>
+									<div class="icontext">
+										Quick Search
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{quickSearchInit}}">Click here for more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile9" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center" ng-init="myTile9= 'https://dev18766.service-now.com/dn/?id=sc_cat_item&sys_id=68f31fdbdbea6200cf69f20ebf9619b3'">
+									<div>
+										<span class="fa fa-child bigicon"></span>
+									</div>
+									<div class="icontext">
+										Support Us
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{myTile9}}">Click here for more</a>
+								</div>
+								<div class="item text-center" ng-init="myTile9 = 'https://dev18766.service-now.com/dn/?id=sc_cat_item&sys_id=68f31fdbdbea6200cf69f20ebf9619b3'">
+									<div>
+										<span class="fa fa-female bigicon"></span>
+									</div>
+									<div class="icontext">
+										Support Us
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{myTile9}}">Click here for more</a>
+								</div>
+								<div class="item text-center" ng-init="myTile9 = 'https://dev18766.service-now.com/dn/?id=sc_cat_item&sys_id=68f31fdbdbea6200cf69f20ebf9619b3'">
+									<div>
+										<span class="fa fa-group  fa fa-group bigicon"></span>
+									</div>
+									<div class="icontext">
+										Support Us
+									</div>
+									<div class="icontext"></div>
+									<a ng-href="{{myTile9}}">Click here for more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-8">
+					<div id="tile10" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center" ng-init="mytile10 = 'https://dev18766.service-now.com/donatenow/?id=child_info&sysparm_domain_restore=false&sysparm_stack=no'">
+									<div>
+										<span class="fa fa-gift bigicon"></span>
+									</div>
+									<div class="icontext">
+										Gift a Smile
+									</div>
+									<a ng-href="{{mytile10}}">Click here for more</a>
+								</div>
+								<div class="item text-center" ng-init="mytile10 = 'https://dev18766.service-now.com/donatenow/?id=child_info&sysparm_domain_restore=false&sysparm_stack=no'">
+									<div>
+										<span class="fa fa-smile-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Gift a Smile
+									</div>
+									<a ng-href="{{mytile10}}">Click here for more</a>
+								</div>
+								<div class="item text-center" ng-init="mytile10 = 'https://dev18766.service-now.com/donatenow/?id=child_info&sysparm_domain_restore=false&sysparm_stack=no'">>
+									<div>
+										<span class="fa fa-birthday-cake bigicon"></span>
+									</div>
+									<div class="icontext">
+										Gift a Smile
+									</div>
+									<a ng-href="{{mytile10}}">Click here for more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile1" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center" ng-init="myTile1 = 'https://dev18766.service-now.com/$c.do'">
+									<div>
+										<span class="fa fa-comments-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Connect
+									</div>
+									<a ng-href="{{myTile1}}">Click here to Chat</a>
+								</div>
+								<div class="item text-center" ng-init="myTile1= 'https://dev18766.service-now.com/$c.do'">
+									<div>
+										<span class="fa fa-comment bigicon"></span>
+									</div>
+									<div class="icontext">
+										Connect
+									</div>
+									<a ng-href="{{myTile1}}">Click here to Chat</a>
+								</div>
+								<div class="item text-center" ng-init="myTile1 = 'https://dev18766.service-now.com/$c.do'">
+									<div>
+										<span class="fa fa-comments-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Connect
+									</div>
+									<a ng-href="{{myTile1}}">Click here to Chat</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile2" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center" ng-init="initDonator = '?id=donatenow_donator'">
+									<div>
+										<span class="fa fa-check-square-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Next Week's
+									</div>
+									<div class="icontext">
+										Donators
+									</div>
+									<a ng-href="{{initDonator}}">Click here for more</a>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-check-circle-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Next Week's
+									</div>
+									<div class="icontext">
+										Donators 
+									</div>
+									<a ng-href="{{initDonator}}">Click here for more</a>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-check-square bigicon"></span>
+									</div>
+									<div class="icontext">
+										Next Week's
+									</div>
+									<div class="icontext">
+										Donators
+									</div>
+									<a ng-href="{{initDonator}}">Click here for more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile3" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center">
+									<div>
+										<span class="fa fa-thumbs-o-up bigicon"></span>
+									</div>
+									<div class="icontext">
+										Success
+									</div>
+									<div class="icontext">
+										Stories
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-trophy bigicon"></span>
+									</div>
+									<div class="icontext">
+										Success
+									</div>
+									<div class="icontext">
+										Stories
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-camera bigicon"></span>
+									</div>
+									<div class="icontext">
+										Success
+									</div>
+									<div class="icontext">
+										Stories
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile4" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center">
+									<div>
+										<span class="fa fa-shopping-cart bigicon"></span>
+									</div>
+									<div class="icontext">
+										Shop For 
+									</div>
+									<div class="icontext">
+										A Cause
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-laptop bigicon"></span>
+									</div>
+									<div class="icontext">
+										Shop For
+									</div>
+									<div class="icontext">
+										A Cause
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="glyphicon glyphicon-shopping-cart bigicon"></span>
+									</div>
+									<div class="icontext">
+										Shop For 
+									</div>
+									<div class="icontext">
+										A Cause
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile5" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center">
+									<div>
+										<span class="fa fa-file-archive-o bigicon"></span>
+									</div>
+									<div class="icontext">
+										Tax
+									</div>
+									<div class="icontext">
+										Saving
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-money bigicon"></span>
+									</div>
+									<div class="icontext">
+										Tax
+									</div>
+									<div class="icontext">
+										Savings
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-language bigicon"></span>
+									</div>
+									<div class="icontext">
+										Tax
+									</div>
+									<div class="icontext">
+										Savings
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-4">
+					<div id="tile6" class="tile">
+						<div class="carousel slide" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active text-center">
+									<div>
+										<span class="fa fa-wifi bigicondark"></span>
+									</div>
+									<div class="icontextdark">
+										Wifi
+									</div>
+									<div class="icontextdark">
+										<span class="fa fa-check"></span>
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-wifi bigicondark"></span>
+									</div>
+									<div class="icontextdark">
+										Wifi
+									</div>
+									<div class="icontextdark">
+										<span class="fa fa-close"></span>
+									</div>
+								</div>
+								<div class="item text-center">
+									<div>
+										<span class="fa fa-wifi bigicondark"></span>
+									</div>
+									<div class="icontextdark">
+										Wifi
+									</div>
+									<div class="icontextdark">
+										<span class="fa fa-check"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript">
+
+		$('.carousel').carousel({
+			interval: 3000
+
+		})
+
+		</script>
+		<!-- Metro Tiles - END -->
+	</div>
+</body>
+</html>undefined</div>]]></template>
+    </sp_widget>
+</record_update>

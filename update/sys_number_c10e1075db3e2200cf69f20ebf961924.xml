@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_66281_donatenow_success_story">x_66281_donatenow_success_story</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SUC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 15:24:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c10e1075db3e2200cf69f20ebf961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SUC</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sys_number_c10e1075db3e2200cf69f20ebf961924</sys_update_name>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 15:24:43</sys_updated_on>
+    </sys_number>
+</record_update>

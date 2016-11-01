@@ -1,0 +1,3735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["c5ebb558dbfe2200cf69f20ebf9619f5"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,01ebb558dbfe2200cf69f20ebf9619e6,8debb558dbfe2200cf69f20ebf9619ef,81ebb558dbfe2200cf69f20ebf9619ec,01ebb558dbfe2200cf69f20ebf9619d7,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,49ebb558dbfe2200cf69f20ebf9619e3,09ebb558dbfe2200cf69f20ebf9619d6,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,01ebb558dbfe2200cf69f20ebf9619e6,8debb558dbfe2200cf69f20ebf9619ef,81ebb558dbfe2200cf69f20ebf9619ec,01ebb558dbfe2200cf69f20ebf9619d7,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,01ebb558dbfe2200cf69f20ebf9619e6,8debb558dbfe2200cf69f20ebf9619ef,81ebb558dbfe2200cf69f20ebf9619ec,01ebb558dbfe2200cf69f20ebf9619d7,49ebb558dbfe2200cf69f20ebf9619dd,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,01ebb558dbfe2200cf69f20ebf9619e6,8debb558dbfe2200cf69f20ebf9619ef,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,81ebb558dbfe2200cf69f20ebf9619e2,01ebb558dbfe2200cf69f20ebf9619df,49ebb558dbfe2200cf69f20ebf9619dc,89ebb558dbfe2200cf69f20ebf9619f5,c5ebb558dbfe2200cf69f20ebf9619d9,81ebb558dbfe2200cf69f20ebf9619eb,01ebb558dbfe2200cf69f20ebf9619d8,45ebb558dbfe2200cf69f20ebf9619f2,81ebb558dbfe2200cf69f20ebf9619ea,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,81ebb558dbfe2200cf69f20ebf9619e2,01ebb558dbfe2200cf69f20ebf9619df,49ebb558dbfe2200cf69f20ebf9619dc,89ebb558dbfe2200cf69f20ebf9619f5,c5ebb558dbfe2200cf69f20ebf9619d9,81ebb558dbfe2200cf69f20ebf9619eb,01ebb558dbfe2200cf69f20ebf9619d8,45ebb558dbfe2200cf69f20ebf9619f2,81ebb558dbfe2200cf69f20ebf9619ea,49ebb558dbfe2200cf69f20ebf9619dd,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,81ebb558dbfe2200cf69f20ebf9619e2,01ebb558dbfe2200cf69f20ebf9619df,49ebb558dbfe2200cf69f20ebf9619dc,89ebb558dbfe2200cf69f20ebf9619f5,c5ebb558dbfe2200cf69f20ebf9619d9,81ebb558dbfe2200cf69f20ebf9619eb,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5|49ebb558dbfe2200cf69f20ebf9619ee,81ebb558dbfe2200cf69f20ebf9619e9,8debb558dbfe2200cf69f20ebf9619ee,01ebb558dbfe2200cf69f20ebf9619e5,8debb558dbfe2200cf69f20ebf9619f0,49ebb558dbfe2200cf69f20ebf9619ed,81ebb558dbfe2200cf69f20ebf9619e2,01ebb558dbfe2200cf69f20ebf9619df,49ebb558dbfe2200cf69f20ebf9619dc,09ebb558dbfe2200cf69f20ebf9619e5,c5ebb558dbfe2200cf69f20ebf9619f5</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>DonateNow Request</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">49ebb558dbfe2200cf69f20ebf9619ee</start>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85eb7558dbfe2200cf69f20ebf961985</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:28:25</sys_updated_on>
+        <table>x_66281_donatenow_new_donation_request</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="DonateNow Request">dbf8eba7db222200cf69f20ebf961920</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>DonateNow Request</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-25 06:25:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbf8eba7db222200cf69f20ebf961920</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DonateNow Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>wf_workflow_dbf8eba7db222200cf69f20ebf961920</sys_update_name>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-26 06:46:29</sys_updated_on>
+        <table>x_66281_donatenow_new_donation_request</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assigned to empty</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1033</x>
+        <y>252</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assigned_toISEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619eb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619eb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+current.state = 5;</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to empty">81ebb558dbfe2200cf69f20ebf9619eb</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to empty">81ebb558dbfe2200cf69f20ebf9619eb</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assigned to empty</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>205</x>
+        <y>140</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ef</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assigned_toISEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ef</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ef</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to empty">8debb558dbfe2200cf69f20ebf9619ef</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to empty">8debb558dbfe2200cf69f20ebf9619ef</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assigned to is empty</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1254</x>
+        <y>134</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assigned_toISEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dc</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+current.state = 5;</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is empty">49ebb558dbfe2200cf69f20ebf9619dc</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is empty">49ebb558dbfe2200cf69f20ebf9619dc</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assigned to is empty</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>563</x>
+        <y>387</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assigned_toISEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ea</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ea</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is empty">81ebb558dbfe2200cf69f20ebf9619ea</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is empty">81ebb558dbfe2200cf69f20ebf9619ea</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assigned to is not empty</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>627</x>
+        <y>132</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assigned_toISNOTEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is not empty">01ebb558dbfe2200cf69f20ebf9619d7</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assigned to is not empty">01ebb558dbfe2200cf69f20ebf9619d7</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>4</x>
+        <y>2</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">49ebb558dbfe2200cf69f20ebf9619ee</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Donation Type - Food</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>306</x>
+        <y>2</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>category=Food^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ee</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619ee</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Donation Type - Food">8debb558dbfe2200cf69f20ebf9619ee</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Donation Type - Food">8debb558dbfe2200cf69f20ebf9619ee</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>17</x>
+        <y>397</y>
+    </wf_activity>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Food Type - Cooked</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>906</x>
+        <y>4</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>sub_category=Cooked Food^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619ed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619ed</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+current.state = 5;</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Food Type - Cooked">49ebb558dbfe2200cf69f20ebf9619ed</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Food Type - Cooked">49ebb558dbfe2200cf69f20ebf9619ed</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify Assignment group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1136</x>
+        <y>13</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>New donation request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e2</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+&#13;
+current.state = 5;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify Assignment group">81ebb558dbfe2200cf69f20ebf9619e2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify Assignment group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>706</x>
+        <y>1</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>New TASK Assigned</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8debb558dbfe2200cf69f20ebf9619f0</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+current.state = 5;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify Assignment group">8debb558dbfe2200cf69f20ebf9619f0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify Assignment group/Status set to donate incomplete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>11</x>
+        <y>266</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>The food pickup has not been assigned, Hence closing the task incomplete</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619dd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+current.state = 12;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify Assignment group/Status set to donate incomplete">49ebb558dbfe2200cf69f20ebf9619dd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>22</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifying the user</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>236</x>
+        <y>258</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>${name}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Donation request initiated for self delivery</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Hi ${name},&#13;
+&#13;
+Thank you for your contribution.&#13;
+&#13;
+Thank you,&#13;
+Spreading happiness</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>49ebb558dbfe2200cf69f20ebf9619e3</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifying the user">49ebb558dbfe2200cf69f20ebf9619e3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Reminder 1 : Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>909</x>
+        <y>137</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Reminder 1: Delivery of Grocery items</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89ebb558dbfe2200cf69f20ebf9619f5</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Reminder 1 : Notification">89ebb558dbfe2200cf69f20ebf9619f5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Reminder 2: Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1466</x>
+        <y>204</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Reminder 2: Delivery of Grocery items</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619d8</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Reminder 2: Notification">01ebb558dbfe2200cf69f20ebf9619d8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Reminder notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>395</x>
+        <y>136</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>c3843f2fdb222200cf69f20ebf9619fc</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>Reminder: </value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619ec</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+current.state = 5;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Reminder notification">81ebb558dbfe2200cf69f20ebf9619ec</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>24</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set group = Food pickup &amp; Status = waiting for assignment</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:24:46</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>498</x>
+        <y>10</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>assignment_group=c3843f2fdb222200cf69f20ebf9619fc^state=5^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set group = Food pickup &amp; Status = waiting for assignment">01ebb558dbfe2200cf69f20ebf9619e5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>23</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Status to self delivery</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>211</x>
+        <y>390</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09ebb558dbfe2200cf69f20ebf9619d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>state=13^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Status to self delivery">09ebb558dbfe2200cf69f20ebf9619d6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Setting status to assigned</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>802</x>
+        <y>404</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09ebb558dbfe2200cf69f20ebf9619e5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>state=9^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Spoc Pickup</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>117</x>
+        <y>4</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>spoc_pickup=true^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>81ebb558dbfe2200cf69f20ebf9619e9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Spoc Pickup">81ebb558dbfe2200cf69f20ebf9619e9</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Spoc Pickup">81ebb558dbfe2200cf69f20ebf9619e9</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for 1 day</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1345</x>
+        <y>1</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619df</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 1 day">01ebb558dbfe2200cf69f20ebf9619df</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>21</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>wait for 1 day</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>1484</x>
+        <y>316</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>45ebb558dbfe2200cf69f20ebf9619f2</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="wait for 1 day">45ebb558dbfe2200cf69f20ebf9619f2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for 1 day</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>848</x>
+        <y>252</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1970-01-02 00:00:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c5ebb558dbfe2200cf69f20ebf9619d9</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 1 day">c5ebb558dbfe2200cf69f20ebf9619d9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for 30 mins</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+        <x>3</x>
+        <y>145</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>81ebb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>05ebb558dbfe2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>1970-01-01 00:30:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>01ebb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>09ebb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>0debb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>85ebb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>89ebb558dbfe2200cf69f20ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>01ebb558dbfe2200cf69f20ebf9619e6</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>8debb558dbfe2200cf69f20ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for 30 mins">01ebb558dbfe2200cf69f20ebf9619e6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">85ebb558dbfe2200cf69f20ebf9619dd</condition>
+        <from display_value="Assigned to is empty">49ebb558dbfe2200cf69f20ebf9619dc</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Reminder 1 : Notification">89ebb558dbfe2200cf69f20ebf9619f5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">85ebb558dbfe2200cf69f20ebf9619dc</condition>
+        <from display_value="Wait for 1 day">c5ebb558dbfe2200cf69f20ebf9619d9</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Assigned to empty">81ebb558dbfe2200cf69f20ebf9619eb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">cdebb558dbfe2200cf69f20ebf9619e8</condition>
+        <from display_value="Wait for 30 mins">01ebb558dbfe2200cf69f20ebf9619e6</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>41ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Assigned to empty">8debb558dbfe2200cf69f20ebf9619ef</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4debb558dbfe2200cf69f20ebf9619ea</condition>
+        <from display_value="Assigned to is empty">81ebb558dbfe2200cf69f20ebf9619ea</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4debb558dbfe2200cf69f20ebf9619de</condition>
+        <from display_value="Notify Assignment group/Status set to donate incomplete">49ebb558dbfe2200cf69f20ebf9619dd</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="End">c5ebb558dbfe2200cf69f20ebf9619f5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">85ebb558dbfe2200cf69f20ebf9619ed</condition>
+        <from display_value="Reminder notification">81ebb558dbfe2200cf69f20ebf9619ec</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Assigned to is not empty">01ebb558dbfe2200cf69f20ebf9619d7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">c9ebb558dbfe2200cf69f20ebf9619d7</condition>
+        <from display_value="Assigned to is not empty">01ebb558dbfe2200cf69f20ebf9619d7</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>45ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">81ebb558dbfe2200cf69f20ebf9619f2</condition>
+        <from display_value="Notify Assignment group">8debb558dbfe2200cf69f20ebf9619f0</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Food Type - Cooked">49ebb558dbfe2200cf69f20ebf9619ed</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">05ebb558dbfe2200cf69f20ebf9619ee</condition>
+        <from display_value="Food Type - Cooked">49ebb558dbfe2200cf69f20ebf9619ed</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Wait for 30 mins">01ebb558dbfe2200cf69f20ebf9619e6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8debb558dbfe2200cf69f20ebf9619f6</condition>
+        <from display_value="Reminder 1 : Notification">89ebb558dbfe2200cf69f20ebf9619f5</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Wait for 1 day">c5ebb558dbfe2200cf69f20ebf9619d9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4debb558dbfe2200cf69f20ebf9619e9</condition>
+        <from display_value="Spoc Pickup">81ebb558dbfe2200cf69f20ebf9619e9</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>49ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Notifying the user">49ebb558dbfe2200cf69f20ebf9619e3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">cdebb558dbfe2200cf69f20ebf9619e1</condition>
+        <from display_value="Wait for 1 day">01ebb558dbfe2200cf69f20ebf9619df</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Assigned to is empty">49ebb558dbfe2200cf69f20ebf9619dc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">cdebb558dbfe2200cf69f20ebf9619eb</condition>
+        <from display_value="Assigned to empty">81ebb558dbfe2200cf69f20ebf9619eb</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Reminder 2: Notification">01ebb558dbfe2200cf69f20ebf9619d8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4debb558dbfe2200cf69f20ebf9619e5</condition>
+        <from display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="End">c5ebb558dbfe2200cf69f20ebf9619f5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">c9ebb558dbfe2200cf69f20ebf9619f0</condition>
+        <from display_value="Assigned to empty">8debb558dbfe2200cf69f20ebf9619ef</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>4debb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Reminder notification">81ebb558dbfe2200cf69f20ebf9619ec</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">05ebb558dbfe2200cf69f20ebf9619dd</condition>
+        <from display_value="Assigned to is empty">49ebb558dbfe2200cf69f20ebf9619dc</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">45ebb558dbfe2200cf69f20ebf9619e5</condition>
+        <from display_value="Set group = Food pickup &amp; Status = waiting for assignment">01ebb558dbfe2200cf69f20ebf9619e5</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Notify Assignment group">8debb558dbfe2200cf69f20ebf9619f0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4debb558dbfe2200cf69f20ebf9619d7</condition>
+        <from display_value="Assigned to is not empty">01ebb558dbfe2200cf69f20ebf9619d7</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c1ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Notify Assignment group/Status set to donate incomplete">49ebb558dbfe2200cf69f20ebf9619dd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">cdebb558dbfe2200cf69f20ebf9619ea</condition>
+        <from display_value="Assigned to is empty">81ebb558dbfe2200cf69f20ebf9619ea</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Notify Assignment group/Status set to donate incomplete">49ebb558dbfe2200cf69f20ebf9619dd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">85ebb558dbfe2200cf69f20ebf9619ee</condition>
+        <from display_value="Food Type - Cooked">49ebb558dbfe2200cf69f20ebf9619ed</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Notify Assignment group">81ebb558dbfe2200cf69f20ebf9619e2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4debb558dbfe2200cf69f20ebf9619e4</condition>
+        <from display_value="Notifying the user">49ebb558dbfe2200cf69f20ebf9619e3</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Set Status to self delivery">09ebb558dbfe2200cf69f20ebf9619d6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">cdebb558dbfe2200cf69f20ebf9619e9</condition>
+        <from display_value="Spoc Pickup">81ebb558dbfe2200cf69f20ebf9619e9</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Donation Type - Food">8debb558dbfe2200cf69f20ebf9619ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">05ebb558dbfe2200cf69f20ebf9619f5</condition>
+        <from display_value="wait for 1 day">45ebb558dbfe2200cf69f20ebf9619f2</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Assigned to is empty">81ebb558dbfe2200cf69f20ebf9619ea</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4debb558dbfe2200cf69f20ebf9619eb</condition>
+        <from display_value="Assigned to empty">81ebb558dbfe2200cf69f20ebf9619eb</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">85ebb558dbfe2200cf69f20ebf9619e3</condition>
+        <from display_value="Notify Assignment group">81ebb558dbfe2200cf69f20ebf9619e2</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Wait for 1 day">01ebb558dbfe2200cf69f20ebf9619df</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">c9ebb558dbfe2200cf69f20ebf9619ef</condition>
+        <from display_value="Donation Type - Food">8debb558dbfe2200cf69f20ebf9619ee</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c9ebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Set group = Food pickup &amp; Status = waiting for assignment">01ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4debb558dbfe2200cf69f20ebf9619d6</condition>
+        <from display_value="Set Status to self delivery">09ebb558dbfe2200cf69f20ebf9619d6</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="End">c5ebb558dbfe2200cf69f20ebf9619f5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c9ebb558dbfe2200cf69f20ebf9619ee</condition>
+        <from display_value="Begin">49ebb558dbfe2200cf69f20ebf9619ee</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Spoc Pickup">81ebb558dbfe2200cf69f20ebf9619e9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">05ebb558dbfe2200cf69f20ebf9619d9</condition>
+        <from display_value="Reminder 2: Notification">01ebb558dbfe2200cf69f20ebf9619d8</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="wait for 1 day">45ebb558dbfe2200cf69f20ebf9619f2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">49ebb558dbfe2200cf69f20ebf9619f0</condition>
+        <from display_value="Assigned to empty">8debb558dbfe2200cf69f20ebf9619ef</from>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>cdebb558dbfe2200cf69f20ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <to display_value="Setting status to assigned">09ebb558dbfe2200cf69f20ebf9619e5</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>Niloy</sys_created_by>
+        <sys_created_on>2016-10-27 06:23:59</sys_created_on>
+        <sys_id>c5eb7558dbfe2200cf69f20ebf961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Niloy</sys_updated_by>
+        <sys_updated_on>2016-10-27 06:23:59</sys_updated_on>
+        <workflow_version display_value="DonateNow Request">85eb7558dbfe2200cf69f20ebf961985</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=dbf8eba7db222200cf69f20ebf961920^sys_id!=85eb7558dbfe2200cf69f20ebf961985">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_66281_donatenow.SetAddressField</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SetAddressField</name>
+        <script><![CDATA[var SetAddressField = Class.create();
+SetAddressField.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	userAddress: function() { //Declare a function inside our class.
+	var userName = this.getParameter('sysparm_my_name'); //Get the parameter we passed in from the client script
+// 		gs.info(userName);
+	var gr = new GlideRecord('sys_user');
+	gr.addQuery('sys_id', userName);
+	gr.query(); 
+	var home,office;
+// 		gs.info(gr.getRowCount());
+	//define the callback function
+	//function getAddress(gr) {
+		if (gr.next()) {
+			home = gr.location.getDisplayValue();
+			office = gr.x_66281_donatenow_office_location.getDisplayValue();
+		}
+	//}
+	return home+","+office;
+},
+	
+    type: 'SetAddressField'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>payel</sys_created_by>
+        <sys_created_on>2016-10-31 04:21:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>02f5c2e1db3a2200cf69f20ebf9619f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SetAddressField</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>sys_script_include_02f5c2e1db3a2200cf69f20ebf9619f7</sys_update_name>
+        <sys_updated_by>payel</sys_updated_by>
+        <sys_updated_on>2016-10-31 05:42:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

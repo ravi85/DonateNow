@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Donation Need" max_length="40" name="x_66281_donatenow_donation_need" type="collection">
+        <element label="Donation Date" max_length="40" name="donation_date" type="glide_date"/>
+        <element label="Have" max_length="40" name="have" type="integer"/>
+        <element label="Need" max_length="40" name="need" type="integer"/>
+        <element display="true" label="Orphanage/Oldage Name" max_length="32" name="orphanage_oldage_name" reference="x_66281_donatenow_home_details" type="reference"/>
+        <index name="index">
+            <element name="orphanage_oldage_name"/>
+        </index>
+    </element>
+</database>

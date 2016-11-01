@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes=",text_index_translations" label="Location" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element label="Area" max_length="400" name="x_66281_donatenow_area" type="string"/>
+    </element>
+</database>

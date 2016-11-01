@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cheers For A Donation">a9065784db3e2200cf69f20ebf961915</catalog_item>
+        <catalog_variable>IO:9d726b88db3e2200cf69f20ebf961929</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-28 04:35:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>607c6aecdb766200cf69f20ebf96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>clothtype</sys_name>
+        <sys_package display_value="Donatenow" source="x_66281_donatenow">28f36102db222200cf69f20ebf9619f5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Donatenow">28f36102db222200cf69f20ebf9619f5</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_607c6aecdb766200cf69f20ebf96195f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-28 04:35:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="visibility of  &quot;cloths type&quot; &quot;cloths quantity&quot;  &quot;specify cloth details &quot;when &quot;cloths&quot; is true">053ca2ecdb766200cf69f20ebf9619f0</ui_policy>
+        <variable>clothtype</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
